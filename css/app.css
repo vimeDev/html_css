@@ -1,0 +1,155 @@
+/* ESTILOS UNIVERSALES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS HEADER */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    background-color: #eeeeee;
+}
+.main-header{
+    background-color: #7757f6;
+}
+.header-wrapper{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* soluciona que los floats salgan de su contenedor */
+    overflow: hidden;
+}
+.header-logo{
+    float: left;
+}
+.header-menu{
+    float: right;
+}
+.header-menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+.cover{
+    background-image: url('../img/portada.png');
+    background-position: center;
+    background-size: cover;
+}
+.cover .cover-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+.cover-photo-container img{
+    border-radius: 50%;
+}
+.cover-text{
+    background-color: rgba(70, 203, 253, 0.5);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+/*  */
+.title-underline{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+.title-underline span{
+    display: inline-block;
+    border-bottom: 8px solid #7757f6;
+    margin-bottom: 20px;
+}
+.cover-description{
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 1.5em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cover-description span{
+    color: cadetblue;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.btn-blue{
+    display: inline-block;
+    /* font-weight: 700; */
+    /* text-transform: uppercase; */
+    color: darkgray;
+    font-size: 1em;
+    text-decoration:  none;
+    border: 2px solid #7757f6;
+    padding: 10px 15px;
+    /* la trancision se realizara cuando se aplique el hover */
+    transition: background-color 0.5s;
+    margin-top: 20px;
+}
+.btn-blue:hover{
+    background-color: dodgerblue;
+    color: #eeeeee;
+    /* border: none; */
+}
+.skill-wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.skill-item{
+    list-style: none;
+}
+.skills-text{
+    text-transform: uppercase;
+    color: darkslategray;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.skill-name{
+    float: left;
+}
+.skill-score{
+    float: right;
+
+}
+.skills-bar{
+    width: 100%;
+    height: 30px;
+    background-color: #606060;
+}
+.skills-progress{
+    width: 80%;
+    height: 30px;
+    background-color: darkcyan;
+}
+/*  */
+.works-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.works-item{
+    display: inline-block;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: lightsteelblue;
+}
+.works-img{
+    width: 100%;
+}
