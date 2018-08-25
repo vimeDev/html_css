@@ -5,26 +5,29 @@
     <meta charset="utf-8">
     <title>Maquetación</title>
     <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
-    <header class="main-header">
-        <div class="header-wrapper">
-            <div class="header-logo">
-                <a href=""><img src="img/logo.png" alt="Company logo" height="60"></a>
-            </div>
-            <nav class="header-menu">
-                <ul class="header-menu-wrapper">
-                    <li><a href="" class="header-menu-link">Inicio</a></li>
-                    <li><a href="#aboutme" class="header-menu-link">Contenido</a></li>
-                    <li><a href="#works" class="header-menu-link">Portafolio</a></li>
-                    <li><a href="#contacto" class="header-menu-link">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
     <!-- header complement -->
     <section id="cover" class="cover">
+        <header class="main-header">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <a href=""><img src="img/logo.png" alt="Company logo" height="60"></a>
+                </div>
+                <!-- Barra de navegación -->
+                <nav class="header-menu">
+                    <ul class="header-menu-wrapper">
+                        <li><a href="" class="header-menu-link">Inicio</a></li>
+                        <li><a href="#aboutme" class="header-menu-link">Contenido</a></li>
+                        <li><a href="#works" class="header-menu-link">Portafolio</a></li>
+                        <li><a href="#contacto" class="header-menu-link">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--  -->
         <div class="cover-wrapper">
             <div class="cover-photo-container">
                 <img src="img/profile.jpg" alt="Profile img" height="200">
@@ -32,6 +35,9 @@
             <div class="cover-text">
                 <h1>Lorem, ipsum dolor.</h1>
                 <h4>Lorem ipsum dolor sit amet.</h4>
+            </div>
+            <div class="btn">
+                <a id="btn-header" href="">Saber mas . . . </a>
             </div>
         </div>
     </section>
@@ -42,9 +48,9 @@
             <h1 class="title-underline"><span>Lorem, ipsum dolor.</span></h1>
         </header>
         <div class="cover-description">
-            <p>Lorem ipsum dolor sit amet, consectetur <span><small>Lorem, ipsum dolor.</small></span> adipisicing elit. Modi eius doloribus cumque at molestiae ipsa cupiditate
-                laborum reiciendis, dignissimos impedit delectus ratione quos quo nostrum sapiente adipisci praesentium voluptatem
-                voluptate.
+            <p>Lorem ipsum dolor sit amet, consectetur <span><small>Lorem, ipsum dolor.</small></span> adipisicing elit.
+                Modi eius doloribus cumque at molestiae ipsa cupiditate laborum reiciendis, dignissimos impedit delectus
+                ratione quos quo nostrum sapiente adipisci praesentium voluptatem voluptate.
             </p>
             <div class="text-center">
                 <a class="btn-blue" href="mailto:vime1621@gmail.com">Contactame</a>
@@ -106,60 +112,67 @@
             </li>
         </ul>
     </section>
+
     <!-- Section portfolio -->
     <section id="works" class="works">
         <header>
             <h1 class="text-underline">
                 <span>
                     Portfolio
-                </span></h1>
+                </span>
+            </h1>
         </header>
         <div class="works-wrapper">
             <article class="works-item">
                 <div class="item-container">
-                    <img class="works-img" src="img/work.PNG" alt="Works">
-                </div>
-                <div class="item-description">
-                    <header>
-                        <h2 class="work-item-title">Web developer</h2>
-                    </header>
-                    <p class="work-item-client">Lorem ipsum dolor sit amet <a href="" target="_blank">Client</a></p>
-                    <div class="text-center">
-                        <a class="btn-blue" href="">Visit work</a>
+                    <a href="">
+                        <img class="works-img" src="img/cards/c.png" alt="Works">
+                        <div class="card-description">
+                            <div>C++</div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, perferendis! Non quo accusantium natus ipsam deleniti!
+                            </p>
+                        </div>
+                    </a>
+                    <div class="btn-card">
+                        <a href="">Lorem, ipsum....</a>
                     </div>
                 </div>
             </article>
             <article class="works-item">
                 <div class="item-container">
-                    <img class="works-img" src="img/work.PNG" alt="Works">
-                </div>
-                <div class="item-description">
-                    <header>
-                        <h2 class="work-item-title">Web developer</h2>
-                    </header>
-                    <p class="work-item-client">Lorem ipsum dolor sit amet <a href="" target="_blank">Client</a></p>
-                    <div class="text-center">
-                        <a class="btn-blue" href="">Visit work</a>
+                    <a href="">
+                        <img class="works-img" src="img/cards/java.png" alt="Works">
+                        <div class="card-description">
+                            <div>Java</div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, perferendis! Non quo accusantium natus ipsam deleniti!
+                            </p>
+                        </div>
+                    </a>
+                    <div class="btn-card">
+                        <a href="">Lorem, ipsum....</a>
                     </div>
                 </div>
             </article>
             <article class="works-item">
                 <div class="item-container">
-                    <img class="works-img" src="img/work.PNG" alt="Works">
-                </div>
-                <div class="item-description">
-                    <header>
-                        <h2 class="work-item-title">Web developer</h2>
-                    </header>
-                    <p class="work-item-client">Lorem ipsum dolor sit amet <a href="" target="_blank">Client</a></p>
-                    <div class="text-center">
-                        <a class="btn-blue" href="">Visit work</a>
+                    <a href="">
+                        <img class="works-img" src="img/cards/py.png" alt="Works">
+                        <div class="card-description">
+                            <div>Python 3</div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, perferendis! Non quo accusantium natus ipsam deleniti!
+                            </p>
+                        </div>
+                    </a>
+                    <div class="btn-card">
+                        <a href="">Lorem, ipsum....</a>
                     </div>
                 </div>
             </article>
         </div>
     </section>
-
     <!-- Formulario contacto -->
     <section id="contact" class="contact">
         <header>
